@@ -1,0 +1,56 @@
+body{
+margin: 0;
+padding: 0;
+background: url(i.jpg);
+background-size: cover;
+background-position:center;
+font-family: sana-serif;
+}
+.loginbox{
+width: 320px;
+height: 420px;			
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+border-radius: none;
+padding: 60px 10px;
+}
+.kk{
+width: 100px;
+height: 100px;
+border-radius: 100%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+.loginbox input[type="text"], input[type="Password"]
+{
+
+border: none;
+border-bottom: 2px solid #fff;
+background: none;
+color: white; 
+outline: none;
+height : 30px;
+} 
+.loginbox input[type="submit"]
+{
+border: none;
+outline: none;
+width: 200px;
+height: 40px;
+background-color: DodgerBlue;
+border-radius: 20px;
+color: #fff;
+font-size: 18px;
+}
+.loginbox a:hover
+{
+	cursor: pointer;
+	background: #61FF33;
+}
+
